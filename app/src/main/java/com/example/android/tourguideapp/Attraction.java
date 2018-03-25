@@ -3,7 +3,7 @@ package com.example.android.tourguideapp;
 public class Attraction {
 
     /**
-     * Constant value that represents no image was provided for this word
+     * Constant value that represents no image was provided for this Attraction
      */
     private static final int NO_IMAGE_PROVIDED = -1;
     /**
