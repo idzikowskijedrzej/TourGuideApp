@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">TourGuideApp</string>
+
+    <!-- Categories -  Tab -->
+    <string name="category_sights">Sights</string>
+    <string name="category_culture">Sights</string>
+    <string name="category_food">Sights</string>
+    <string name="category_nightlife">Sights</string>
+
+
+    <!-- Sights -->
+    <string name="sights_name_1">Acapulco</string>
+    <string name="sights_address_1">long beach</string>
+    <string name="sights_short_info_1">Cosy drink bar near the beach</string>
+    <string name="sights_long_info_1">Cosy drink bar near the beach. Cosy drink bar near the beach. Cosy drink bar near the beach</string>
+
+    <string name="sights_name_2">Lambada</string>
+    <string name="sights_address_2">long beach</string>
+    <string name="sights_short_info_2">Cosy drink bar near the beach</string>
+    <string name="sights_long_info_2">Cosy drink bar near the beach. Cosy drink bar near the beach. Cosy drink bar near the beach</string>
+
+
+    <string name="sights_name_3">Acapulco</string>
+    <string name="sights_name_4">Acapulco</string>
+
+</resources>
