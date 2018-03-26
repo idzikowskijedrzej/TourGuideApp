@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.android.tourguideapp.MainActivity">
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="center"
+        android:src="@mipmap/ic_launcher" />
+
+    <TextView
+        android:id="@+id/name_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="top"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:textColor="@color/listItem"
+        tools:text="address" />
+
+    <TextView
+        android:id="@+id/address_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="top"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:textColor="@color/listItem"
+        tools:text="address" />
+
+    <TextView
+        android:id="@+id/long_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="top"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:textColor="@color/listItem"
+        tools:text="address" />
+
+</LinearLayout>

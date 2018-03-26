@@ -1,6 +1,7 @@
 package com.example.android.tourguideapp;
 
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
@@ -28,7 +29,9 @@ public class FoodFragment extends Fragment {
 
         // Create a list of Attractions
         final ArrayList<Attraction> attractions = new ArrayList<>();
-        attractions.add(new Attraction(R.string.sights_name_1, R.string.sights_name_2, R.mipmap.ic_launcher));
+        attractions.add(new Attraction(R.string.sights_name_1, R.string.sights_address_1, R.string.sights_short_info_1, R.string.sights_long_info_1, R.mipmap.ic_launcher));
+        attractions.add(new Attraction(R.string.sights_name_2, R.string.sights_address_2, R.string.sights_short_info_2, R.string.sights_long_info_2, R.mipmap.ic_launcher));
+        attractions.add(new Attraction(R.string.sights_name_1, R.string.sights_address_1, R.string.sights_short_info_1, R.string.sights_long_info_1, R.mipmap.ic_launcher));
 
 
         // Create an {@link AttractionAdapter}, whose data source is a list of {@link Attraction}s. The
@@ -51,6 +54,12 @@ public class FoodFragment extends Fragment {
 
                 // Get the {@link Attraction} object at the given position the user clicked on
                 Attraction attraction = attractions.get(position);
+                Intent goDetail = new Intent(getActivity(), DetailActivity.class);
+                goDetail.putExtra("name", attraction.getmNameId());
+                goDetail.putExtra("address", attraction.getmAddressId());
+                goDetail.putExtra("long", attraction.getmLongInfoId());
+                goDetail.putExtra("image", attraction.getmImageId());
+                startActivity(goDetail);
 
             }
         });

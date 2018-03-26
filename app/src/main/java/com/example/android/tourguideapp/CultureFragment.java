@@ -1,6 +1,7 @@
 package com.example.android.tourguideapp;
 
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
@@ -53,7 +54,12 @@ public class CultureFragment extends Fragment {
 
                 // Get the {@link Attraction} object at the given position the user clicked on
                 Attraction attraction = attractions.get(position);
-
+                Intent goDetail = new Intent(getActivity(), DetailActivity.class);
+                goDetail.putExtra("name", attraction.getmNameId());
+                goDetail.putExtra("address", attraction.getmAddressId());
+                goDetail.putExtra("long", attraction.getmLongInfoId());
+                goDetail.putExtra("image", attraction.getmImageId());
+                startActivity(goDetail);
             }
         });
 
