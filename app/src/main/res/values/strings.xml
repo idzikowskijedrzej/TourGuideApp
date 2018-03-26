@@ -7,6 +7,12 @@
     <string name="category_food">Food</string>
     <string name="category_nightlife">Sights</string>
 
+    <!--Food-->
+    <string name="food_name_1">Jadka</string>
+    <string name="food_address_1">Rzeźnicza 24-25</string>
+    <string name="food_short_info_1">Przystawki - Dania Pierwsze - Dania Główne - Desery</string>
+    <string name="food_long_info_1">Przeszukujemy stare książki kucharskie, by poznać źródło smaków, które zachowały się w naszej zbiorowej (nie)pamięci. Staropolskie receptury, przekazy o kuchni dawnego Breslau interpretujemy zgodnie z naszym doświadczeniem i szkołami kulinarnymi, jakie nas ukształtowały – Justyna Słupska Kartaczowska francuską, a Orson Hejnowicz skandynawską. W naszej kuchni używamy produktów, których jakość wyznaczają tradycyjne metody wytwarzania, dbałość o polskie dziedzictwo, poszanowanie dla mądrości natury i rzemieślniczej praktyki. Z niezwykłą dbałością patrzymy na produkty i kupujemy je wyłącznie od gospodarzy z Polski. Do tego dodajemy to, co sami nazbieramy w lesie, sadzie, na łące, w ogrodzie, nad Odrą. Skupiamy się na tym, by surową naturę przemienić w piękne dania za pomocą tradycyjnych technik obróbki żywności.</string>
+
 
     <!-- Sights -->
     <string name="sights_name_1">Acapulco</string>
