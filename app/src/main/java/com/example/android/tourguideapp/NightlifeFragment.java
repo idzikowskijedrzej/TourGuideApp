@@ -25,7 +25,6 @@ public class NightlifeFragment extends Fragment {
                              Bundle savedInstanceState) {
         View rootView = inflater.inflate(R.layout.attraction_list, container, false);
 
-
         // Create a list of Attractions
         final ArrayList<Attraction> attractions = new ArrayList<>();
         attractions.add(new Attraction(R.string.nightlife_name_1, R.string.nightlife_address_1, R.string.nightlife_short_info_1, R.string.nightlife_long_info_1, R.drawable.nightlife1));

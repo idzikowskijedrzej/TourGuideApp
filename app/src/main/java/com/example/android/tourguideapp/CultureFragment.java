@@ -26,7 +26,6 @@ public class CultureFragment extends Fragment {
                              Bundle savedInstanceState) {
         View rootView = inflater.inflate(R.layout.attraction_list, container, false);
 
-
         // Create a list of Attractions
         final ArrayList<Attraction> attractions = new ArrayList<>();
         attractions.add(new Attraction(R.string.culture_name_1, R.string.culture_address_1, R.string.culture_short_info_1, R.string.culture_long_info_1, R.drawable.culture1));

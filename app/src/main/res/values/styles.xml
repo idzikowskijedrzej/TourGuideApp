@@ -13,10 +13,4 @@
         <!-- Remove the shadow below the app bar -->
         <item name="elevation">0dp</item>
     </style>
-
-
-    <!-- Text appearance style for a category tab -->
-    <style name="CategoryTabTextAppearance">
-        <item name="android:textColor">#A8A19E</item>
-    </style>
 </resources>

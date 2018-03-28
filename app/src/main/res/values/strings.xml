@@ -25,12 +25,10 @@
     <string name="sights_short_info_1">The Old Town Hall is one of the main landmarks of the city.</string>
     <string name="sights_long_info_1">The Old Town Hall (Polish: Stary Ratusz) of Wrocław stands at the center of the city’s Market Square. The Gothic town hall built from the 13th century is one of the main landmarks of the city. The Old Town Hall has long history reflects developments that have taken place in the city since its initial construction. The town hall serves the city of Wroclaw and is used for civic and cultural events such as concerts held in its Great Hall. In addition, it houses a museum and a basement restaurant.</string>
 
-
     <string name="sights_name_2">Sky Tower</string>
     <string name="sights_address_2">Address: Powstańców Śląskich 95</string>
     <string name="sights_short_info_2">The tallest building in Poland with a publicly accessible viewpoint.</string>
     <string name="sights_long_info_2">Sky Tower is a skyscraper in Wrocław, Poland. Construction began in December 2007 with the demolition of the 24-story Poltegor structure, until then the tallest building in the city. Sky Tower is the tallest building in Poland in the category of height to roof and category of highest floor but shorter than the Palace of Culture and Science architecturally. On the 49th floor is a publicly accessible viewpoint.</string>
-
 
     <!-- Culture -->
     <string name="culture_name_1">Capitol Theater</string>
@@ -53,6 +51,5 @@
     <string name="nightlife_address_2">Address: Plac Wolności 7</string>
     <string name="nightlife_short_info_2">Nightclub - HOUSE / DANCE and RnB</string>
     <string name="nightlife_long_info_2">A modern entertainment center, created for the most demanding and thirsty for the best clubbing at a high level. Two entirely different music areas (HOUSE / DANCE and RnB). X-Demon is a well-known brand especially in Zielona Góra and Leszno, where two clubs from this network are located. From now, also in the capital of Lower Silesia ...</string>
-
 
 </resources>

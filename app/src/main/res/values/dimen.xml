@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- default margin/padding/space -->
+    <!-- default margin/padding-->
     <dimen name="small_dp">4dp</dimen>
     <dimen name="medium_dp">8dp</dimen>
     <dimen name="large_dp">16dp</dimen>
@@ -11,6 +11,5 @@
 
     <!-- Height of each list item -->
     <dimen name="list_item_height">120dp</dimen>
-
 
 </resources>

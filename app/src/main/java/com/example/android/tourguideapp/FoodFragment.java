@@ -26,7 +26,6 @@ public class FoodFragment extends Fragment {
                              Bundle savedInstanceState) {
         View rootView = inflater.inflate(R.layout.attraction_list, container, false);
 
-
         // Create a list of Attractions
         final ArrayList<Attraction> attractions = new ArrayList<>();
         attractions.add(new Attraction(R.string.food_name_1, R.string.food_address_1, R.string.food_short_info_1, R.string.food_long_info_1, R.drawable.food1));

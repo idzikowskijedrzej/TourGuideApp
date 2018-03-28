@@ -25,7 +25,6 @@ public class MainActivity extends AppCompatActivity {
 
         // Find the tab layout that shows the tabs
 
-
         TabLayout tabLayout = findViewById(R.id.tabs);
 
         // Connect the tab layout with the view pager. This will

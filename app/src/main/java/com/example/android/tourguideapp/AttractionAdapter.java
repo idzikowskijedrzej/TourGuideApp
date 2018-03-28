@@ -47,7 +47,6 @@ public class AttractionAdapter extends ArrayAdapter<Attraction> {
         nameTextView.setText(currentAttraction.getmNameId());
         shortTextView.setText(currentAttraction.getmShortInfoId());
 
-
         // Check if an image is provided for this attraction
         if (currentAttraction.hasImage()) {
             // If an image is available, display the provided image
