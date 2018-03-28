@@ -40,12 +40,12 @@ public class AttractionAdapter extends ArrayAdapter<Attraction> {
 
         // Find the TextViews in the list_item.xml layout
         TextView nameTextView = listItemView.findViewById(R.id.name_text_view);
-        TextView infoTextView = listItemView.findViewById(R.id.info_text_view);
+        TextView shortTextView = listItemView.findViewById(R.id.short_text_view);
         ImageView imageView = listItemView.findViewById(R.id.image);
 
         // Get the name from the currentAttraction object and set this text on item
         nameTextView.setText(currentAttraction.getmNameId());
-        infoTextView.setText(currentAttraction.getmShortInfoId());
+        shortTextView.setText(currentAttraction.getmShortInfoId());
 
 
         // Check if an image is provided for this attraction

@@ -5,14 +5,20 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="@dimen/list_item_height"
-    android:minHeight="@dimen/list_item_height">
+    android:background="@color/listBackground"
+    android:minHeight="@dimen/list_item_height"
+    android:padding="@dimen/small_dp">
 
     <ImageView
         android:id="@+id/image"
         android:layout_width="@dimen/list_item_height"
-        android:layout_height="@dimen/list_item_height" />
+        android:layout_height="@dimen/list_item_height"
+        android:layout_centerVertical="true"
+        android:background="@color/colorTextTab"
+        android:paddingLeft="@dimen/small_dp"
+        android:src="@drawable/sights1" />
 
-    <RelativeLayout
+    <LinearLayout
         android:id="@+id/text_container"
         android:layout_width="match_parent"
         android:layout_height="@dimen/list_item_height"
@@ -20,30 +26,34 @@
         android:layout_alignParentRight="true"
         android:layout_alignParentTop="true"
         android:layout_toRightOf="@id/image"
+        android:background="@color/colorTextTab"
         android:orientation="vertical"
-        android:paddingLeft="16dp">
+        android:paddingLeft="@dimen/large_dp">
 
         <TextView
             android:id="@+id/name_text_view"
             android:layout_width="match_parent"
-            android:layout_height="44dp"
+            android:layout_height="wrap_content"
             android:layout_weight="1"
             android:gravity="bottom"
+            android:paddingRight="@dimen/small_dp"
             android:textAppearance="?android:textAppearanceMedium"
             android:textColor="@color/listItem"
             android:textStyle="bold"
-            tools:text="somebody" />
+            tools:text="@string/sights_name_1" />
 
         <TextView
-            android:id="@+id/info_text_view"
+            android:id="@+id/short_text_view"
             android:layout_width="match_parent"
-            android:layout_height="44dp"
-            android:layout_below="@id/name_text_view"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/short_text_view"
             android:layout_weight="1"
             android:gravity="top"
+            android:paddingRight="@dimen/small_dp"
             android:textAppearance="?android:textAppearanceMedium"
             android:textColor="@color/listItem"
-            tools:text="one" />
+            android:textSize="@dimen/regular_sp"
+            tools:text="@string/sights_address_1" />
 
-    </RelativeLayout>
+    </LinearLayout>
 </RelativeLayout>

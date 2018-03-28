@@ -6,4 +6,5 @@
     <color name="colorTab">#c62828</color>
     <color name="colorTextTab">#ffffff</color>
     <color name="listItem">#000000</color>
+    <color name="listBackground">#ada0a0</color>
 </resources>

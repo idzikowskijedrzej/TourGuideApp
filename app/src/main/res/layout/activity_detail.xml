@@ -1,48 +1,64 @@
 <?xml version="1.0" encoding="utf-8"?>
-
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
+    android:background="@color/listBackground"
     tools:context="com.example.android.tourguideapp.MainActivity">
 
-    <ImageView
-        android:id="@+id/image"
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="@dimen/medium_dp"
-        android:scaleType="center"
-        android:src="@mipmap/ic_launcher" />
+        android:background="@color/colorTextTab"
+        android:orientation="vertical">
 
-    <TextView
-        android:id="@+id/name_text_view"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:gravity="top"
-        android:padding="@dimen/medium_dp"
-        android:textAppearance="?android:textAppearanceMedium"
-        android:textColor="@color/listItem"
-        tools:text="address" />
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/medium_dp"
+            android:adjustViewBounds="true"
+            android:padding="@dimen/small_dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/sights1" />
 
-    <TextView
-        android:id="@+id/address_text_view"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:gravity="top"
-        android:padding="@dimen/medium_dp"
-        android:textAppearance="?android:textAppearanceMedium"
-        android:textColor="@color/listItem"
-        tools:text="address" />
+        <TextView
+            android:id="@+id/name_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/medium_dp"
+            android:gravity="center"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="@color/listItem"
+            android:textStyle="bold"
+            tools:text="@string/sample_text" />
 
-    <TextView
-        android:id="@+id/long_text_view"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:gravity="top"
-        android:padding="@dimen/medium_dp"
-        android:textAppearance="?android:textAppearanceMedium"
-        android:textColor="@color/listItem"
-        tools:text="address" />
+        <TextView
+            android:id="@+id/address_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/medium_dp"
+            android:layout_marginBottom="@dimen/medium_dp"
+            android:gravity="center"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="@color/listItem"
+            android:textSize="@dimen/regular_sp"
+            android:textStyle="italic"
+            tools:text="@string/sample_text" />
 
-</LinearLayout>
+        <TextView
+            android:id="@+id/long_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/medium_dp"
+            android:gravity="center"
+            android:paddingBottom="@dimen/medium_dp"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="@color/listItem"
+            android:textSize="@dimen/regular_sp"
+            tools:text="@string/sample_text" />
+    </LinearLayout>
+
+
+</ScrollView>

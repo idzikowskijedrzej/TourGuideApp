@@ -29,10 +29,14 @@ public class FoodFragment extends Fragment {
 
         // Create a list of Attractions
         final ArrayList<Attraction> attractions = new ArrayList<>();
-        attractions.add(new Attraction(R.string.food_name_1, R.string.sights_address_1, R.string.sights_short_info_1, R.string.sights_long_info_1, R.mipmap.ic_launcher));
-        attractions.add(new Attraction(R.string.sights_name_2, R.string.sights_address_2, R.string.sights_short_info_2, R.string.sights_long_info_2, R.mipmap.ic_launcher));
-        attractions.add(new Attraction(R.string.sights_name_1, R.string.sights_address_1, R.string.sights_short_info_1, R.string.sights_long_info_1, R.mipmap.ic_launcher));
-
+        attractions.add(new Attraction(R.string.food_name_1, R.string.food_address_1, R.string.food_short_info_1, R.string.food_long_info_1, R.drawable.food1));
+        attractions.add(new Attraction(R.string.food_name_2, R.string.food_address_2, R.string.food_short_info_2, R.string.food_long_info_2, R.drawable.food2));
+        attractions.add(new Attraction(R.string.food_name_1, R.string.food_address_1, R.string.food_short_info_1, R.string.food_long_info_1, R.drawable.food1));
+        attractions.add(new Attraction(R.string.food_name_2, R.string.food_address_2, R.string.food_short_info_2, R.string.food_long_info_2, R.drawable.food2));
+        attractions.add(new Attraction(R.string.food_name_1, R.string.food_address_1, R.string.food_short_info_1, R.string.food_long_info_1, R.drawable.food1));
+        attractions.add(new Attraction(R.string.food_name_2, R.string.food_address_2, R.string.food_short_info_2, R.string.food_long_info_2, R.drawable.food2));
+        attractions.add(new Attraction(R.string.food_name_1, R.string.food_address_1, R.string.food_short_info_1, R.string.food_long_info_1, R.drawable.food1));
+        attractions.add(new Attraction(R.string.food_name_2, R.string.food_address_2, R.string.food_short_info_2, R.string.food_long_info_2, R.drawable.food2));
 
         // Create an {@link AttractionAdapter}, whose data source is a list of {@link Attraction}s. The
         // adapter knows how to create list items for each item in the list.

@@ -8,11 +8,31 @@
     android:orientation="vertical"
     tools:context="com.example.android.tourguideapp.MainActivity">
 
-    <ImageView
+    <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:adjustViewBounds="true"
-        android:src="@drawable/wroclaw" />
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:src="@drawable/wroclaw" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/image"
+            android:layout_marginBottom="@dimen/medium_dp"
+            android:background="#80FFFFFF"
+            android:fontFamily="monospace"
+            android:gravity="center"
+            android:padding="@dimen/medium_dp"
+            android:text="Wrocław"
+            android:textColor="@color/listItem"
+            android:textSize="@dimen/titleText_sp" />
+    </RelativeLayout>
+
 
     <android.support.design.widget.TabLayout
         android:id="@+id/tabs"

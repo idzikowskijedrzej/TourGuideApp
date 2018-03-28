@@ -63,7 +63,7 @@ public class CategoryPagerAdapter extends FragmentPagerAdapter {
         } else if (position == 2) {
             return mContext.getString(R.string.category_food);
         } else {
-            return mContext.getString(R.string.category_culture);
+            return mContext.getString(R.string.category_nightlife);
         }
     }
 }
