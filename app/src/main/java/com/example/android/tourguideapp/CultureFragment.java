@@ -44,9 +44,9 @@ public class CultureFragment extends Fragment {
         // Find the {@link ListView} object in the view hierarchy of the {@link Activity}.
         // There should be a {@link ListView} with the view ID called list, which is declared in the
         // attraction_list.xml layout file.
-        ListView listView = (ListView) rootView.findViewById(R.id.list);
+        ListView listView = rootView.findViewById(R.id.list);
 
-        // Make the {@link ListView} use the {@link AttractionAdapter} we created above, so that the
+        // Make the {@link ListView} use the {@link AttractionAdapter} created above, so that the
         // {@link ListView} will display list items for each {@link Attraction} in the list.
         listView.setAdapter(adapter);
 

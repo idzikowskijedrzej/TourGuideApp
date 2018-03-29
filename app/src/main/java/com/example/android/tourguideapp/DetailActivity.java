@@ -22,7 +22,6 @@ public class DetailActivity extends AppCompatActivity {
         ImageView imageIV = findViewById(R.id.image);
 
         //Get info of opened attraction
-
         nameTV.setText(extras.getInt("name"));
         addressTV.setText(extras.getInt("address"));
         longTV.setText(extras.getInt("long"));

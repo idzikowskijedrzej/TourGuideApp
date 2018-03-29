@@ -47,16 +47,8 @@ public class AttractionAdapter extends ArrayAdapter<Attraction> {
         nameTextView.setText(currentAttraction.getmNameId());
         shortTextView.setText(currentAttraction.getmShortInfoId());
 
-        // Check if an image is provided for this attraction
-        if (currentAttraction.hasImage()) {
-            // If an image is available, display the provided image
-            imageView.setImageResource(currentAttraction.getmImageId());
-            // Make sure the view is visible
-            imageView.setVisibility(View.VISIBLE);
-        } else {
-            // Otherwise hide the ImageView (set visibility to GONE)
-            imageView.setVisibility(View.GONE);
-        }
+        // If an image is available, display the provided image
+        imageView.setImageResource(currentAttraction.getmImageId());
 
         // Return the whole list item layout (containing 2 TextViews) so that it can be shown in ListView
         return listItemView;

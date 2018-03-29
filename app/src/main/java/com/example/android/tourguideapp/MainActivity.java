@@ -32,10 +32,9 @@ public class MainActivity extends AppCompatActivity {
         TabLayout tabLayout = findViewById(R.id.tabs);
 
         // Connect the tab layout with the view pager. This will
-        //   1. Update the tab layout when the view pager is swiped
-        //   2. Update the view pager when a tab is selected
-        //   3. Set the tab layout's tab names with the view pager's adapter's titles
-        //      by calling onPageTitle()
+        //   -Update the tab layout when the view pager is swiped
+        //   -Update the view pager when a tab is selected
+        //   -Set the tab layout's tab names with the view pager's adapter's titles by calling onPageTitle()
         tabLayout.setupWithViewPager(viewPager);
     }
 }

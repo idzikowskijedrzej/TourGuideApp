@@ -13,9 +13,7 @@ import com.example.android.tourguideapp.SightsFragment;
  */
 public class CategoryPagerAdapter extends FragmentPagerAdapter {
 
-    /**
-     * Context of the app
-     */
+    // Application context
     private Context mContext;
 
     /**
