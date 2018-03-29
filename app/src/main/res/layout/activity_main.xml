@@ -17,6 +17,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:adjustViewBounds="true"
+            android:contentDescription="@string/contentBanner"
             android:src="@drawable/wroclaw" />
 
         <TextView
@@ -24,15 +25,14 @@
             android:layout_height="wrap_content"
             android:layout_alignBottom="@id/image"
             android:layout_marginBottom="@dimen/medium_dp"
-            android:background="#80FFFFFF"
+            android:background="@color/colorTitleBackground"
             android:fontFamily="monospace"
             android:gravity="center"
             android:padding="@dimen/medium_dp"
-            android:text="Wrocław"
+            android:text="@string/cityName"
             android:textColor="@color/listItem"
             android:textSize="@dimen/titleText_sp" />
     </RelativeLayout>
-
 
     <android.support.design.widget.TabLayout
         android:id="@+id/tabs"

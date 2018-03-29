@@ -19,6 +19,7 @@
             android:layout_height="wrap_content"
             android:layout_margin="@dimen/medium_dp"
             android:adjustViewBounds="true"
+            android:contentDescription="@string/contentDetail"
             android:padding="@dimen/small_dp"
             android:scaleType="centerCrop"
             android:src="@drawable/sights1" />

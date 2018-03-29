@@ -11,15 +11,18 @@ public class DetailActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_detail);
+        // Get extras
+        Bundle extras = getIntent().getExtras();
+        setTitle(extras.getInt("name"));
 
-        // find views
+        // Find views
         TextView nameTV = findViewById(R.id.name_text_view);
         TextView addressTV = findViewById(R.id.address_text_view);
         TextView longTV = findViewById(R.id.long_text_view);
         ImageView imageIV = findViewById(R.id.image);
 
-        //get info of opened attraction
-        Bundle extras = getIntent().getExtras();
+        //Get info of opened attraction
+
         nameTV.setText(extras.getInt("name"));
         addressTV.setText(extras.getInt("address"));
         longTV.setText(extras.getInt("long"));

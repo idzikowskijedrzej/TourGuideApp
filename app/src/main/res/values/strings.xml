@@ -1,6 +1,9 @@
 <resources>
     <string name="app_name">TourGuideApp</string>
     <string name="sample_text">Some sample text</string>
+    <string name="cityName">Wrocław</string>
+    <string name="contentBanner">A picture of Wroclaw Old Town</string>
+    <string name="contentDetail">A picture of chosen attraction</string>
 
     <!-- Categories -  Tab -->
     <string name="category_sights">Sights</string>
@@ -10,14 +13,14 @@
 
     <!--Food-->
     <string name="food_name_1">Jadka</string>
-    <string name="food_address_1">Address: Rzeźnicza 24-25</string>
+    <string name="food_address_1">Address: Rzeźnicza 24</string>
     <string name="food_short_info_1">Old Polish recipes.</string>
     <string name="food_long_info_1">We search old cookbooks to learn about the source of flavors that have been preserved in our collective memory. Old Polish recipes, messages about the cuisine of the old Wroclaw are interpreted in accordance with our experience and culinary schools that shaped us. In our kitchen we use products whose quality is determined by traditional methods of production, care for Polish heritage, respect for the wisdom of nature and craft practice. With great care we look at products and buy them only from hosts from Poland. To this we add what we ourselves pick up in the forest, orchard, in the meadow, in the garden, on the Oder. We focus on transforming raw nature into beautiful dishes using traditional food processing techniques.</string>
 
     <string name="food_name_2">Pod Papugami</string>
     <string name="food_address_2">Address: Sukiennice 9a</string>
     <string name="food_short_info_2">Restaurant and Cocktail Bar in the Old Town.</string>
-    <string name="food_long_info_2">Wroclaw Market Square, Hollywood atmosphere, delicious cuisine, tempting bar and lots of good music ... Sounds like a recipe for a great restaurant. Under the parrots, it was not without reason that it became known as a cult place on the entertainment map of Wroclaw. And not only because of mezzanine ... Menu? It is a mix of the latest culinary trends, fresh, seasonal products and unrestrained fantasy of Mariola Monczak - our chef in the Mediterranean and French flavors.</string>
+    <string name="food_long_info_2">Wroclaw Market Square, Hollywood atmosphere, delicious cuisine, tempting bar and lots of good music. Sounds like a recipe for a great restaurant. Under the parrots, it was not without reason that it became known as a cult place on the entertainment map of Wroclaw. And not only because of mezzanine. Menu? It is a mix of the latest culinary trends, fresh, seasonal products and unrestrained fantasy of Mariola Monczak - our chef in the Mediterranean and French flavors.</string>
 
     <!-- Sights -->
     <string name="sights_name_1">The Old Town Hall</string>
@@ -50,6 +53,6 @@
     <string name="nightlife_name_2">X-Demon</string>
     <string name="nightlife_address_2">Address: Plac Wolności 7</string>
     <string name="nightlife_short_info_2">Nightclub - HOUSE / DANCE and RnB</string>
-    <string name="nightlife_long_info_2">A modern entertainment center, created for the most demanding and thirsty for the best clubbing at a high level. Two entirely different music areas (HOUSE / DANCE and RnB). X-Demon is a well-known brand especially in Zielona Góra and Leszno, where two clubs from this network are located. From now, also in the capital of Lower Silesia ...</string>
+    <string name="nightlife_long_info_2">A modern entertainment center, created for the most demanding and thirsty for the best clubbing at a high level. Two entirely different music areas (HOUSE / DANCE and RnB). X-Demon is a well-known brand especially in Zielona Góra and Leszno, where two clubs from this network are located. From now, also in the capital of Lower Silesia.</string>
 
 </resources>
